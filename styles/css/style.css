@@ -47,4 +47,10 @@ body{background:url(../../images/bg.jpg) no-repeat center #243240;-webkit-backgr
 
 #welcome #copy a:hover{text-decoration:underline}
 
+#welcome #privacy{position:absolute;bottom:25px;float:right;border-top:1px solid rgba(255,255,255,0.2);padding:25px 0 0 0}
+
+#welcome #privacy a{color:#fff;text-decoration:none;font-weight:bold}
+
+#welcome #privacy a:hover{text-decoration:underline}
+
 
