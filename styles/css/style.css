@@ -3,7 +3,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 html,body{height:100%}body,*{-webkit-font-smoothing:antialiased;padding:0;margin:0}
 
-body{background:url(../../images/bg.jpg) no-repeat center #243240;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;color:#91979d;padding:0 75px 0 0;font:16px/1.5 "Mission Gothic",sans-serif}
+body{background: #243240;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;color:#91979d;padding:0 75px 0 0;font:16px/1.5 "Mission Gothic",sans-serif}
 
 
 .item{width:50%;float:left;box-sizing:border-box; display:inline; padding: 25px;}
@@ -14,6 +14,10 @@ body{background:url(../../images/bg.jpg) no-repeat center #243240;-webkit-backgr
     }
 }
 
+#body {position: absolute;min-width: 100%}
+
+#background {position: absolute; min-width: 100%}
+
 #welcome{padding:50px;min-height:100%;height:auto;box-sizing:border-box;text-align:center;position:relative;max-width:960px;margin:0 auto;-webkit-transition:-webkit-transform ease-in-out .25s}
 
 #welcome #logo{font-size:48px;font-weight:bold}
@@ -22,16 +26,9 @@ body{background:url(../../images/bg.jpg) no-repeat center #243240;-webkit-backgr
 
 #welcome #logo a span{color:#c0392b}
 
-#welcome ul{padding:0 25px 50px 25px; margin-top: 0px; width: 100%; max-width: 1000px;margin: auto; }
-
-
-
-
-
+#welcome ul{padding:0 0px 0px 0px; margin-top: 0px; width: 100%; max-width: 1000px;margin: auto; }
 
 #welcome ul li:first-child:before{font-family:"FontAwesome";font-size:72px;display:block;color:#30819f}
-
-
 
 #welcome ul li:last-child:before{font-family:"FontAwesome";font-size:72px;display:block;color:#30819f}
 
