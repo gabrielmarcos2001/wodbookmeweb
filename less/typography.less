@@ -1,0 +1,112 @@
+// Colors
+
+.white {
+  color:#fff;
+}
+
+.gray-2 {
+  color:@gray2;
+}
+
+.red-1 {
+  color:@red1;
+}
+
+.blue-1 {
+  color:@blue1;
+}
+
+// Variants
+
+.bold {
+  font-weight:bold;
+}
+
+// Generic
+
+ol,
+p {
+  margin:10px 0;
+  line-height:1.375em;
+}
+
+li {
+  margin:10px 0;
+}
+
+// Text styles
+
+.text-1 {
+  font-size:1.5em;
+}
+
+.text-2 {
+  font-family:Impact;
+  font-size:7em;
+  @media screen and(max-width: @screen-sm-min) {
+    & {
+      font-size:4em;
+    }
+  }
+}
+
+.text-3 {
+  font-size:2.25em;
+  @media screen and(max-width: @screen-sm-min) {
+    & {
+      font-size:1.5em;
+    }
+  }
+}
+
+.text-4 {
+  font-size:8em;
+  line-height:0.5em;
+}
+
+.text-5 {
+  font-family:MissionGothicBold;
+  color:@red1;
+  font-size:1.5em;
+}
+
+.text-6 {
+  font-family:MissionGothicBold;
+  font-size:1.5em;
+  @media screen and(max-width: @screen-sm-min) {
+    & {
+      font-size:1.125em;
+    }
+  }
+}
+
+.link-1 {
+  color:#fff;
+  transition:color 400ms ease-in-out;
+  -webkit-transition:color 400ms ease-in-out;
+  text-decoration:none;
+  &:link,
+  &:visited {
+    color:#fff;
+    text-decoration:none;
+  }
+  &:hover,
+  &:active,
+  &.active {
+    color:@red2;
+    text-decoration:none;
+  }
+}
+
+a {
+  &:hover {
+    text-decoration:none;
+  }
+}
+
+#tos {
+  h3 {
+    color:@red1;
+    font-size:1.125em;
+  }
+}
