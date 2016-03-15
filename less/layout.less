@@ -52,6 +52,7 @@
     margin-bottom:-64px;
     .section {
       padding-top:40px;
+      position:relative;
       @media screen and(max-width: @screen-sm-min) {
         & {
           padding-top:40px;
@@ -59,6 +60,9 @@
         }
       }
       img {
+
+
+
         @media screen and(max-width: @screen-sm-min) {
           & {
             max-width:70%;
@@ -169,5 +173,20 @@ hr {
   }
   h3 {
     margin-top:24px;
+  }
+}
+
+.page-boxes {
+  #page-middle {
+    #page-middle-inner {
+      h3 {
+        @media screen and(max-width: @screen-lg-min) {
+          & {
+            margin-top:16px;
+          }
+        }
+
+      }
+    }
   }
 }
